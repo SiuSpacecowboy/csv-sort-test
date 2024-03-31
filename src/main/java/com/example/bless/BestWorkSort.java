@@ -16,7 +16,7 @@ public class BestWorkSort {
     private static final long fileMem = 576716800;
 
     public static void main(String[] args) {
-        Path getFilePath = Paths.get(/**TODO На этом месте нужно вписать полный путь до файла, который надо отсортировать*/);
+        Path getFilePath = Paths.get(""/**TODO На этом месте нужно вписать полный путь до файла, который надо отсортировать*/);
         File fileForSort = new File(getFilePath.toUri());
         try {
             List<File> sortedFiles = sortAndSaveSubFiles(fileForSort);
